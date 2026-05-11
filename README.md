@@ -88,7 +88,7 @@ sudo apt-get update && sudo apt-get install texlive-full
 ]
 ```
 
-* 調整後：
+* 調整後
 ```
 "latex-workshop.latex.recipes": [
     {
