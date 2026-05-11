@@ -22,6 +22,60 @@ sudo apt-get update
 sudo apt-get install texlive-full
 ```
 
+#### Windows
+
+建議安裝：
+
+* TeX Live
+* Strawberry Perl
+* Visual Studio Code
+* LaTeX Workshop
+
+##### 安裝 TeX Live
+
+請至官方網站下載：
+
+* TeX Live
+  https://www.tug.org/texlive/
+
+安裝完成後，請確認以下指令可正常使用：
+
+```powershell
+xelatex --version
+bibtex --version
+```
+
+---
+
+##### 安裝 Strawberry Perl（部分套件需求）
+
+下載網址：
+
+https://strawberryperl.com/
+
+安裝完成後重新開啟終端機。
+
+---
+
+##### Windows 編譯方式
+
+開啟 PowerShell 或 CMD：
+
+```powershell
+xelatex main
+bibtex main
+xelatex main
+xelatex main
+```
+
+### Windows 字體設定
+
+Windows 通常內建以下中文字體：
+
+```tex
+\setCJKmainfont{標楷體}
+```
+
 ### 設定文件參數與字體
 
 你可以在 `ntut-labels.tex` 進行參數的設定，例如：科系、論文名稱、學位、研究生等。
