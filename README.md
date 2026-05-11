@@ -24,12 +24,13 @@ sudo apt-get update && sudo apt-get install texlive-full
 1. 下載並安裝 [TeX Live 官方安裝包](https://www.tug.org/texlive/)。
 2. 安裝 [Strawberry Perl for Windows](https://strawberryperl.com/)（部分 LaTeX 套件需求）。
 3. 設定環境變數：
- 
-  `C:\Strawberry\c\bin`
-  `C:\Strawberry\perl\site\bin`
-  `C:\Strawberry\perl\bin`
+ ```
+  C:\Strawberry\c\bin
+  C:\Strawberry\perl\site\bin
+  C:\Strawberry\perl\bin
+ ```
    
-4. 驗證安裝：開啟終端機輸入 `xelatex --version`。
+5. 驗證安裝：開啟終端機輸入 `xelatex --version`。
 
 ⚙️ 專案設定與自定義
 在開始撰寫內容前，請先完成以下參數設定：
